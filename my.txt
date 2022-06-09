@@ -1,1 +1,1 @@
-echo "Found me"
+./configure --add-module=spnego-http-auth-nginx-module

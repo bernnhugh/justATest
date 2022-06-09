@@ -1,1 +1,3 @@
-./configure --add-module=spnego-http-auth-nginx-module
+./configure --add-module=spnego-http-auth-nginx-module \
+  --with-http_auth_request_module \
+  --with-http_ssl_module
